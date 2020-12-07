@@ -1,0 +1,38 @@
+
+
+html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    
+  }
+  
+  *, *::before, *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+
+
+.titlefont{
+    font-family: 'Nanum Pen Script', cursive;
+    /* font-size: 40px; */
+ }
+
+ .cardfont{
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 3px;
+ }
+.cardfont2{
+  font-family: 'Teko', sans-serif;
+  /* letter-spacing: 3px; */
+}
+
+ .Poke-dex{
+
+     background-image: url("pokedeck.png");
+     height: calc(100% - 20px); 
+}
+
+
+.alto-pokedex{
+  height:600px;
+}
